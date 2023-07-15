@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+    --background: #007FFF;
+    --color: #fff;
+}
+
+/* font-family: 'Comfortaa', cursive; */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    transition: all 500ms;
+}
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+::selection {
+    background-color: #00ff80;
+    color: #3742fa;
+}
+
+.bg-clr {
+    background: var(--background);
+}
+
+.clr {
+    color: var(--color);
+}
+
+header .block {
+    margin: 0% 10% 2% 10%;
+    border-radius: 1pc;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .baslik-1 {
+    font-weight: 100;
+    color: var(--color);
+    font-weight: bold;
+    text-align: center;
+}
+
+header .aciklama-yazi {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+header .show {
+    box-shadow: rgba(78, 78, 78, 0.25) 0px 25px 50px -12px;
+}
+
+header .baslik-2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+article .link-alan a {
+    background-color: #007FFF;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 1pc;
+    display: block;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 1.5rem;
+    transition: all 500ms;
+}
+
+article .link-alan a:hover {
+    background-color: #f1e649;
+    transform: translate(0px, -10px);
+}
+
+footer {
+    margin: 10% 10% 0% 10%;
+    border-radius: 1pc;
+    max-width: 90%;
+    flex-wrap: wrap;
+}
+
+footer .iletisim {
+    background: var(--background);
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+    padding-top: 1;
+
+}
+
+footer .iletisim li a {
+    color: var(--color);
+    font-size: 3rem;
+    margin: 1pc;
+}
+
+
+.eles {
+    position: fixed;
+    right: 5vh;
+    bottom: 5vh;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    transition: all 300ms;
+    font-size: 2rem;
+    color: #f14949;
+    border: 1px solid transparent;
+}
+
+.eles:hover {
+    box-shadow:  1px 1px 10px 7px rgb(188, 188, 188) ;
+}
+
+/* Popup (arka plan) */
+.modal {
+    display: none;
+    /* Varsayılan olarak gizlidir */
+    position: fixed;
+    /* Yerinde kal */
+    z-index: 1;
+    /* Üstte */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Ful Genişlik */
+    height: 100%;
+    /* Ful Yükseklik */
+    overflow: auto;
+    /* Gerekirse kaydırmayı etkinleştir */
+    background-color: rgb(0, 0, 0);
+    /* Yedek renk */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Siyah w / opaklık */
+}
+
+/* İçerik / Kutu */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* % 15 üstten ve ortalanmış */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Ekran boyutuna bağlı olarak daha fazla veya daha az olabilir */
+}
+
+/* Kapat Düğmesi */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.donate-btn {
+    margin: 0% 10% 2% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0% 10% 2% 10%;
+}
+.binance a{
+    background: linear-gradient(90deg, #00ff88  0%, #0600b800 100%);
+    
+}
+.papara a {
+    background: linear-gradient(90deg, #FC466B 0%, #3f5efb00 100%);
+    
+}
+.button{
+    width: 100%;
+    margin: 2vh 0;
+}
+.button a{
+    display: block;
+    margin: 0 auto;
+    color: #ffffffd8;
+    font-size: 150%;
+    padding: 1pc;
+    border-radius: 10px;
+}

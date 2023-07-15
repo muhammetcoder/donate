@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://cdn0.iconfinder.com/data/icons/ramadhan-and-eid/134/charitydonationdonatefundingofferinggive_-64.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://muhammetkirmizikoc.cf/eles.css">
+    <script src="https://kit.fontawesome.com/837be0c474.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylee.css">
+    <title>Eles | Donate</title>
+</head>
+
+<body>
+    <header>
+        <div class="block bg-clr">
+            <h1 class="clr baslik-1">Selam ben Eles</h1>
+        </div>
+        <div class="block bg-clr">
+            <p class="aciklama-yazi clr">Çeşitli sayfalarda çeşitli alanlarda arşivler yayınlıyorum ve bunları tamamen
+                ücretsiz bir şekilde
+                sizlerin beğeninize sunuyorum.
+            </p>
+        </div>
+        <div class="block bg-clr show">
+            <h2 class="baslik-2 clr">Donate için</h2>
+        </div>
+    </header>
+    <article>
+
+        <div class="donate-btn">
+                <div class="binance button center"><a href="https://s.binance.com/u8ZR3WvT">Binance Donate</a></div>
+                <div class="papara button"><a
+                        href="https://www.papara.com/personal/qr?karekod=7502100102120204082903129445262604920612230107132052530394954120000000050006128081010284137281010Donate%2050%E2%82%BA63049BC3">
+                        Papara Donate</a></div>
+            </div>
+
+        <div class="link-alan">
+            <a href="https://muhammetkirmizikoc.cf/">Official Site</a>
+        </div>
+
+
+
+    </article>
+    <footer>
+        <div class="iletisim">
+            <li><a href="https://www.instagram.com/angel.mobrid/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://t.me/alonle"><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a href="mailto:elesyalcin@gmail.com"><i class="fa-solid fa-comments"></i></a></li>
+        </div>
+
+
+
+        <button class="eles" id="myBtn"><i class="fa-solid fa-bolt"></i></button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <H1>Web sitelerim</H1>
+                <p><a href="http://muhammetkirmizikoc.cf">Official Site / muhammetkirmizikoc.cf</a></p>
+                <p><a href="http://elesdonate.cf">Donate Site / elesdonate.cf</a></p>
+                <p><a href="http://elesbrave.cf">Donate Site / elesbrave.cf</a></p>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            // Popup Al
+            var modal = document.getElementById('myModal');
+
+            // Kipi açan düğmeyi al
+            var btn = document.getElementById("myBtn");
+
+            // Kipi kapatan <span> öğesini edinin
+            var span = document.getElementsByClassName("close")[0];
+
+            // Kullanıcı düğmeyi tıklattığında
+            btn.onclick = function () {
+                modal.style.display = "block";
+            }
+
+            // Kullanıcı <span> (x) düğmesini tıkladığında, popup
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            // Kullanıcı modelden başka herhangi bir yeri tıklattıysa, onu kapatın.
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+    </footer>
+</body>
+
+</html>
